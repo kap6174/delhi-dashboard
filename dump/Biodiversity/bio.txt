@@ -1,0 +1,16 @@
+Biodiversity refers to the variety of life on Earth, including the diversity of ecosystems, species, and genetic resources. Biodiversity is not being measured directly through species counts or ecological surveys; instead, we are using land cover data as a proxy to estimate relative biodiversity potential. Specifically, we take ESA’s WorldCover dataset, which classifies land into types such as forest, cropland, urban, or wetlands, and assign each class a biodiversity score that reflects how much ecological richness it generally supports (for example, forests usually have higher biodiversity than urban built-up areas).
+
+By doing this, we create spatial maps and statistical summaries that approximate the distribution of biodiversity across Delhi for different years.
+
+Delhi-wide biodiversity proxy stats:
+   year  mean_score  std_score
+0  2020    3.166084   3.146174
+1  2021    3.675684   3.356978
+
+Year	Mean Score	Std Dev			Interpretation
+2020	3.166		3.146			Delhi’s land cover was dominated by low-biodiversity classes (urban, cropland), 
+						but with high variability — meaning some pockets of high-biodiversity land (forests,
+						 wetlands) still exist.
+2021	3.676		3.357			Slight improvement — maybe a few pixels changed from cropland to shrub/	grassland/water
+						 in ESA WorldCover, or fewer “built-up” pixels due to reclassification. Still low mean,
+						 high variance.

@@ -1,0 +1,7 @@
+size_category,osmid,area_ha
+Large (10-100 ha),134,4300.21
+Medium (1-10 ha),855,2325.08
+Point Feature,248,0.0
+Small (0.1-1 ha),2893,973.44
+Very Large (> 100 ha),27,13792.11
+Very Small (< 0.1 ha),1663,79.84

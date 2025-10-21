@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "team_id": "Team_07",
+    "theme": "Land & Biodiversity",
+    "topic": "Urban Green Space & Park Accessibility",
+    "study_area": "Delhi NCR, India"
+  },
+  "data_sources": {
+    "primary": "OpenStreetMap",
+    "api": "Overpass API",
+    "boundary_source": "OSM Nominatim",
+    "extraction_date": "2025-10-06 18:12:21"
+  },
+  "spatial_info": {
+    "coordinate_system": "EPSG:4326 (WGS84)",
+    "utm_zone": "UTM 43N (EPSG:32643) for area calculations",
+    "total_features": 5820,
+    "total_area_hectares": 21470.68550177142
+  },
+  "data_processing": {
+    "steps": [
+      "1. Delhi NCR boundary extraction via Nominatim",
+      "2. Green space data query via Overpass API",
+      "3. Geometry processing and validation",
+      "4. Spatial clipping to study area",
+      "5. Area calculations in UTM projection",
+      "6. Data cleaning and standardization",
+      "7. Category classification and accessibility scoring"
+    ],
+    "failed_geometries": 1,
+    "green_space_categories": [
+      "Natural Area",
+      "Wetland",
+      "Park/Garden",
+      "Recreation",
+      "Protected Area",
+      "Nature Reserve",
+      "Sports",
+      "Cemetery",
+      "Golf Course",
+      "Other Landuse"
+    ]
+  },
+  "assumptions_limitations": [
+    "Data quality depends on OSM contributor completeness",
+    "Private green spaces may be underrepresented",
+    "Temporal accuracy limited to OSM update frequency",
+    "Small green spaces (<10m\u00b2) may be missed",
+    "Access information may be incomplete"
+  ]
+}

@@ -1,0 +1,11 @@
+category,Count,Total_Area_ha,Mean_Area_ha,Median_Area_ha,Avg_Amenity_Score,Free_Access_Percent
+Cemetery,33,30.34,0.92,0.59,0.0,100.0
+Golf Course,16,352.37,22.02,6.04,0.0,100.0
+Natural Area,402,10195.4,25.36,0.43,0.0,100.0
+Nature Reserve,11,2010.66,182.79,54.02,0.0,100.0
+Other Landuse,6,230.71,38.45,7.01,0.0,100.0
+Park/Garden,4090,4678.2,1.14,0.22,0.0,99.9
+Protected Area,2,3371.54,1685.77,1685.77,0.0,100.0
+Recreation,179,33.35,0.19,0.04,0.0,98.88
+Sports,883,198.35,0.22,0.05,0.0,99.89
+Wetland,198,369.75,1.87,0.39,0.0,100.0

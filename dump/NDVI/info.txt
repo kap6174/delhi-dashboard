@@ -1,0 +1,12 @@
+NDVI 
+NDVI, or Normalized Difference Vegetation Index, is a remote sensing indicator that quantifies the amount and health of live green vegetation by analyzing the different ways plants reflect visible and near-infrared light. Sentinel-2 is a wide-swath, high-resolution, multi-spectral imaging mission supporting Copernicus Land Monitoring studies, including the monitoring of vegetation, soil and water cover, as well as observation of inland waterways and coastal areas.
+
+Map dataset returning zero images for winter and monsoon. Likely weather conditions are the reason.
+There are two types of maps - vis for visualisation and raw. Raw contain the mask (hopefully) so you only have to see vis.
+There are stark differences between two adjacent years. Their cause is unknown, I think its dataset problem.
+
+Map's color coding : 
+Color			NDVI Range	Meaning				Typical Surface
+Red (#d73027)		< 0.2		Barren / built-up / dry soil	Urban, concrete, bare land
+Yellow (#fee08b)	0.2–0.5		Moderate vegetation		Grassland, cropland, shrubs
+Green (#1a9850)		> 0.5		Dense vegetation		Forest, parks, tree cover
